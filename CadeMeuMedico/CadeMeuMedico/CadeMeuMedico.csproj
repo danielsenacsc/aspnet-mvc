@@ -114,6 +114,8 @@
     <Content Include="Models\ModeloDeDados.edmx.diagram">
       <DependentUpon>ModeloDeDados.edmx</DependentUpon>
     </Content>
+    <Content Include="App_Code\BannersPublicitarios.cshtml" />
+    <Content Include="App_Code\TwitterGoodies.cshtml" />
     <None Include="Scripts\jquery-2.0.2.intellisense.js" />
     <Content Include="Models\ModeloDeDados.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
@@ -129,7 +131,10 @@
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-2.0.2.js" />
     <Content Include="Scripts\jquery-2.0.2.min.js" />
+    <Content Include="SQL\BannersPublicitarios.sql" />
     <Content Include="SQL\ScriptInicial.sql" />
+    <Content Include="Uploads\Banners\banner-cdc-cademeumedico.png" />
+    <Content Include="Uploads\Banners\logo-conio-cademeumedico.png" />
     <Content Include="Web.config" />
     <Content Include="Views\Layout.cshtml" />
     <Content Include="Views\_ViewStart.cshtml" />
@@ -146,6 +151,9 @@
     <Compile Include="Controllers\TesteLayoutController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\BannersPublicitario.cs">
+      <DependentUpon>ModeloDeDados.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Cidade.cs">
       <DependentUpon>ModeloDeDados.tt</DependentUpon>
@@ -199,6 +207,7 @@
     <Content Include="Views\Especialidades\Details.cshtml" />
     <Content Include="Views\Especialidades\Edit.cshtml" />
     <Content Include="Views\Especialidades\Index.cshtml" />
+    <Content Include="Views\LayoutMobile.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

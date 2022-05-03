@@ -1,3 +1,3 @@
 ﻿@{
-    Layout = "~/Views/Layout.cshtml";
+    Layout = Request.Browser.IsMobileDevice ? "~/Views/LayoutMobile.cshtml" : "~/Views/Layout.cshtml";
 }

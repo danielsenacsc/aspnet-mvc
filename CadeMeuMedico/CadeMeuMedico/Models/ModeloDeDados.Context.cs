@@ -29,5 +29,6 @@ namespace CadeMeuMedico.Models
         public DbSet<Especialidade> Especialidades { get; set; }
         public DbSet<Medico> Medicos { get; set; }
         public DbSet<Usuario> Usuarios { get; set; }
+        public DbSet<BannersPublicitario> BannersPublicitarios { get; set; }
     }
 }
