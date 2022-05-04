@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace CadeMeuMedico.Controllers
 {
-    public class TesteLayoutController : Controller
+    public class TesteLayoutController : BaseController
     {
         public ActionResult Index()
         {
